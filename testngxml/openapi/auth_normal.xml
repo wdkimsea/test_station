@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="开放平台基本测试">
+    <test name="获取站点信息" verbose="2">
+        <classes>
+            <class name="cn.guanmai.open.auth.GetStationInfoTest" />
+        </classes>
+    </test>
+</suite>

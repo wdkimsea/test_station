@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="订单正常测试">
+	<test name="创建订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.OrderCreateTest" />
+		</classes>
+	</test>
+	<test name="修改订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.OrderUpdateTest" />
+		</classes>
+	</test>
+	<test name="删除订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.OrderDeleteTest" />
+		</classes>
+	</test>
+	<test name="订单退货" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.OrderRefundTest" />
+		</classes>
+	</test>
+	<test name="订单异常" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.OrderAbnormalTest" />
+		</classes>
+	</test>
+</suite>

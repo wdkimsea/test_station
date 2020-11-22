@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="订单管理相关测试">
+	<test verbose="2" name="商户对账单">
+		<classes>
+			<class name="cn.guanmai.manage.custommange.CustomerBillTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="商户管理">
+		<classes>
+			<class name="cn.guanmai.manage.custommange.CustomerManageTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="商户搜索过滤">
+		<classes>
+			<class name="cn.guanmai.manage.custommange.CustomerFilterTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="商户销售报表">
+		<classes>
+			<class name="cn.guanmai.manage.custommange.CustomerSaleReportTest" />
+		</classes>
+	</test>
+</suite> 

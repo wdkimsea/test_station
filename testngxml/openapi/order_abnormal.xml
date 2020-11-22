@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="订单异常测试">
+	<test name="异常创建订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderCreateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常修改订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderUpdateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常删除订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderDeleteAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常创建订单退货" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderRefundCreateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常修改订单退货" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderRefundUpdateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常删除订单退货" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.order.abnormal.OrderRefundDeleteAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常创建订单异常" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.order.abnormal.OrderExceptionCreateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常修改订单异常" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.order.abnormal.OrderExceptionUpdateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="异常删除订单异常" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.order.abnormal.OrderExceptionDeleteAbnormalTest" />
+		</classes>
+	</test>
+</suite>

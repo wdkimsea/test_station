@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="基础信息">
+	<test verbose="2" name="地区编码">
+		<classes>
+			<class name="cn.guanmai.station.system.AreaTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="数据统计">
+		<classes>
+			<class name="cn.guanmai.station.system.DataCenterTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="运营时间">
+		<classes>
+			<class name="cn.guanmai.station.system.ServiceTimeTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="用户管理">
+		<classes>
+			<class name="cn.guanmai.station.system.AccountTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="打印模板">
+		<classes>
+			<class name="cn.guanmai.station.system.PrintTemplateTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="运费模板">
+		<classes>
+			<class name="cn.guanmai.station.system.FreightTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="操作日志">
+		<classes>
+			<class name="cn.guanmai.station.system.OperationLogTest" />
+		</classes>
+	</test>
+</suite>

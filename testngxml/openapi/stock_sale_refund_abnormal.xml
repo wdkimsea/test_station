@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商户退货异常测试用例">
+  <test verbose="2" name="商户退货异常测试用例">
+    <classes>
+      <class name="cn.guanmai.open.stock.abnormal.OpenStockSaleRefundAbnormalTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

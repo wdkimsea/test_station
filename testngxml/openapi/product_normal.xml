@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商品正常测试">
+	<test name="商品分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.CategoryTest" />
+		</classes>
+	</test>
+	<test name="报价单过滤" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.SalemenuFilterTest" />
+		</classes>
+	</test>
+	<test name="报价单创建和修改" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.SalemenuTest" />
+		</classes>
+	</test>
+	<test name="销售商品" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.SaleSkuFilterTest" />
+		</classes>
+	</test>
+
+	<test name="一级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.Category1Test" />
+		</classes>
+	</test>
+
+	<test name="二级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.Category2Test" />
+		</classes>
+	</test>
+
+	<test name="品类分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.Product.PinleiTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="进销存-先进先出">
+	<test verbose="2" name="采购入库">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.InStockTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="销售出库">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.OutStockTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="销售出库过滤">
+		<classes>
+			<class
+				name="cn.guanmai.station.invoicing.OutStockSheetFilterTest" />
+		</classes>
+	</test> <!-- Default test -->
+
+	<test verbose="2" name="采购退货">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.ReturnStockTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="商户退货入库">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.RefundStockTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="库存盘点">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.FIFOStockCheckTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="出入库汇总">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.StockSummaryTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="修改供应商">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SupplierUpdateTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="货值成本表">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.StockCostTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="货位管理">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.ShelfTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="仓内移库">
+		<classes>
+			<class
+				name="cn.guanmai.station.invoicing.FIFOStockTransferTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="分割方案">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SplitPlanTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="分割单据">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SplitSheetTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="分割损耗">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SplitLossTest" />
+		</classes>
+	</test>
+
+</suite>

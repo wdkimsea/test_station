@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="库存盘点正常用例">
+  <test verbose="2" name="库存盘点正常用例">
+    <classes>
+      <class name="cn.guanmai.open.stock.OpenStockTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

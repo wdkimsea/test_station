@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="称重测试">
+	<test verbose="2" name="新版称重">
+		<classes>
+			<class name="cn.guanmai.station.weight.NewWeightSystemTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="ST分拣">
+		<classes>
+			<class name="cn.guanmai.station.weight.StationWeightTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="PDA预分拣">
+		<classes>
+			<class name="cn.guanmai.station.weight.PdaWeightSystemTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="非称重功能">
+		<classes>
+			<class name="cn.guanmai.station.weight.NewWeightSystemInfoTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="供应商预分拣">
+		<classes>
+			<class name="cn.guanmai.station.weight.SupplierWeightTest" />
+		</classes>
+	</test>
+</suite> 

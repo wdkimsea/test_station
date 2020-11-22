@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商品采购规格">
+	<test name="新建采购规格" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.PurchaseSpecCreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改采购规格" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.PurchaseSpecUpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除采购规格" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.PurchaseSpecDeleteTest" />
+		</classes>
+	</test>
+
+	<test name="搜索采购规格" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.PurchaseSpecSearchTest" />
+		</classes>
+	</test>
+</suite>

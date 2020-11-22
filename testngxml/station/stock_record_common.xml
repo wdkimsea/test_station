@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="出入库明细">
+	<test verbose="2" name="采购入库记录">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.InStockRecordTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="商户退货入库">
+		<classes>
+			<class
+				name="cn.guanmai.station.invoicing.RefundStockRecordTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="销售出库记录">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.OutStockRecordTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="采购退货出库记录">
+		<classes>
+			<class
+				name="cn.guanmai.station.invoicing.ReturnStockRecordTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="库存盘点记录">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.StockCheckRecordTest" />
+		</classes>
+	</test>
+</suite>

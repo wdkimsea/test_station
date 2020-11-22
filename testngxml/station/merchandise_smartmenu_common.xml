@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="智能菜单">
+	<test verbose="2" name="智能菜单新建">
+		<classes>
+			<class name="cn.guanmai.station.category.SmartMenuCreateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="智能菜单修改">
+		<classes>
+			<class name="cn.guanmai.station.category.SmartMenuUpdateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="智能菜单查询">
+		<classes>
+			<class name="cn.guanmai.station.category.SmartMenuSearchTest" />
+		</classes>
+	</test>
+</suite>

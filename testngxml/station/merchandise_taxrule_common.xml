@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="税率规则">
+	<test verbose="2" name="税率规则">
+		<classes>
+			<class name="cn.guanmai.station.category.TaxRuleTest" />
+		</classes>
+	</test>
+</suite>

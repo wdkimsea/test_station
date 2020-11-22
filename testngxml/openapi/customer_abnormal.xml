@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="用户管理异常测试">
+	<test name="用户创建异常测试" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.customer.abnormal.CustomerCreateAbnormalTest" />
+		</classes>
+	</test>
+
+	<test name="用户修改异常测试" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.customer.abnormal.CustomerUpdateAbnormalTest" />
+		</classes>
+	</test>
+</suite>

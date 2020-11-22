@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="配送测试">
+	<test verbose="2" name="司机管理">
+		<classes>
+			<class name="cn.guanmai.station.delivery.DriverManageTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="配送线路">
+		<classes>
+			<class name="cn.guanmai.station.delivery.RouteTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="配送测试">
+		<classes>
+			<class name="cn.guanmai.station.delivery.DistributeTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="套账单">
+		<classes>
+			<class name="cn.guanmai.station.delivery.LedgerTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="司机APP">
+		<classes>
+			<class name="cn.guanmai.station.delivery.DriverAppTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="自提点">
+		<classes>
+			<class name="cn.guanmai.station.delivery.PickUpStationTest" />
+		</classes>
+	</test>
+
+</suite>

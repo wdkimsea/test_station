@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="营销策略">
+	<test verbose="2" name="锁价规则">
+		<classes>
+			<class name="cn.guanmai.station.marketing.PriceRuleTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="智能定价">
+		<classes>
+			<class name="cn.guanmai.station.marketing.SmartPricingTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="优惠券">
+		<classes>
+			<class name="cn.guanmai.station.marketing.CouponTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="创建营销活动">
+		<classes>
+			<class name="cn.guanmai.station.marketing.PromotionCreateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="修改营销活动">
+		<classes>
+			<class name="cn.guanmai.station.marketing.PromotionEidtTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="查询营销活动">
+		<classes>
+			<class name="cn.guanmai.station.marketing.PromotionSearchTest" />
+		</classes>
+	</test>
+</suite>

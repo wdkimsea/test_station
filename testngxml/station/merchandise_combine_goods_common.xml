@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="组合商品">
+	<test verbose="2" name="新建组合商品">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.CombineGoodsCreateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="修改组合商品">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.CombineGoodsUpdateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="搜索组合商品">
+		<classes>
+			<class
+				name="cn.guanmai.station.category.CombineGoodsSearchTest" />
+		</classes>
+	</test>
+</suite>

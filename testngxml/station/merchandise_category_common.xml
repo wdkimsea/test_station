@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商品">
+	<test name="新建一级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category1CreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改一级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category1UpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除一级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category1DeleteTest" />
+		</classes>
+	</test>
+
+	<test name="新建二级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category2CreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改二级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category2UpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除二级分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.Category2DeleteTest" />
+		</classes>
+	</test>
+
+	<test name="新建品类分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.PinleiCreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改品类分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.PinleiUpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除品类分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.PinleiDeleteTest" />
+		</classes>
+	</test>
+
+	<test name="新建SPU商品" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SpuCreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改SPU商品" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SpuUpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除SPU商品" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SpuDeleteTest" />
+		</classes>
+	</test>
+
+	<test name="新建销售SKU" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SkuCreateTest" />
+		</classes>
+	</test>
+
+	<test name="修改销售SKU" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SkuUpdateTest" />
+		</classes>
+	</test>
+
+	<test name="删除销售SKU" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SkuDeleteTest" />
+		</classes>
+	</test>
+
+	<test name="商品备注" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.SpuRemarkTest" />
+		</classes>
+	</test> <!-- Default test -->
+
+	<test name="商品分类" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.MerchandiseTest" />
+		</classes>
+	</test>
+
+	<test name="商品库导入操作" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.category.IndexSkuTest" />
+		</classes>
+	</test>
+</suite>

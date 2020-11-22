@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="配送正常测试">
+	<test name="配送司机正常测试" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.delivery.DeliveryDriverTest" />
+		</classes>
+	</test>
+	<test name="配送路线正常测试" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.delivery.DeliveryRouteTest" />
+		</classes>
+	</test>
+
+	<test name="配送任务正常测试" verbose="2">
+		<classes>
+			<class name="cn.guanmai.open.delivery.DeliveryTaskTest" />
+		</classes>
+	</test>
+</suite>

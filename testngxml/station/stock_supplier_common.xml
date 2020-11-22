@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="供应商管理">
+	<test verbose="2" name="修改供应商">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SupplierUpdateTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="删除供应商">
+		<classes>
+			<class name="cn.guanmai.station.invoicing.SupplierDeleteTest" />
+		</classes>
+	</test>
+</suite>

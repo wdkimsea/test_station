@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="采购规格">
+	<test verbose="2" name="采购规格增删改">
+		<classes>
+			<class name="cn.guanmai.open.purchase.OpenPurcahseSpecTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="采购规格过滤测试">
+		<classes>
+			<class
+				name="cn.guanmai.open.purchase.OpenPurcahseSpecSearchTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商品异常测试">
+	<test name="商品分类异常测试" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.CategoryAbnormalTest" />
+		</classes>
+	</test>
+	<test name="SPU异常创建" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SpuCreateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="SPU异常修改" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SpuUpdateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="SPU异常删除" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SpuDeleteAbnormalTest" />
+		</classes>
+	</test>
+	<test name="SKU异常修改" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SaleSkuUpdateAbnormalTest" />
+		</classes>
+	</test>
+	<test name="SKU异常删除" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SaleSkuDeleteAbnormalTest" />
+		</classes>
+	</test>
+
+	<test name="一级分类" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.Category1AbnormalTest" />
+		</classes>
+	</test>
+
+	<test name="二级分类" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.Category2AbnormalTest" />
+		</classes>
+	</test>
+
+	<test name="品类分类" verbose="2">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.PinleiAbnormalTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="报价单异常创建">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SalemenuCreateAbnormalTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="报价单异常修改">
+		<classes>
+			<class
+				name="cn.guanmai.open.Product.abnormal.SalemenuUpdateAbnormalTest" />
+		</classes>
+	</test>
+</suite>

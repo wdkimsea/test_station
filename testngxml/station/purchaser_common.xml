@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="采购员">
+	<test name="新建采购员" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.purchase.PurchaserCreateTest" />
+		</classes>
+	</test>
+	<test name="修改采购员" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.purchase.PurchaserUpdateTest" />
+		</classes>
+	</test>
+	<test name="删除采购员" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.purchase.PurchaserDeleteTest" />
+		</classes>
+	</test>
+</suite>

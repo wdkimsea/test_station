@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="订单测试">
+	<test name="创建订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderCreateTest" />
+		</classes>
+	</test>
+
+	<test name="批量导入" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderBatchImportTest" />
+		</classes>
+	</test>
+
+	<test name="修改订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderEditTest" />
+		</classes>
+	</test>
+
+	<test name="删除订单" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderDeleteTest" />
+		</classes>
+	</test>
+
+	<test name="订单异常" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderExceptionTest" />
+		</classes>
+	</test>
+
+	<test name="按商品查看" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderSkuSearchTest" />
+		</classes>
+	</test>
+
+	<test name="按订单查看" verbose="2">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderSearchTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="订单采购任务">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderPurchaseTaskTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="订单商品操作">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderSkuOpreationTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="下单组合商品">
+		<classes>
+			<class name="cn.guanmai.station.order.OrderCombineGoodsTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="代售单">
+		<classes>
+			<class name="cn.guanmai.station.order.LkOrderTest" />
+		</classes>
+	</test>
+</suite>

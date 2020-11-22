@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="采购任务">
+	<test verbose="2" name="采购任务创建">
+		<classes>
+			<class
+				name="cn.guanmai.station.purchase.PurchaseTaskCreateTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="采购任务修改">
+		<classes>
+			<class name="cn.guanmai.station.purchase.PurchaseTaskEditTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="采购任务发布">
+		<classes>
+			<class
+				name="cn.guanmai.station.purchase.PurchaseTaskReleaseTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="采购任务查询">
+		<classes>
+			<class
+				name="cn.guanmai.station.purchase.PurchaseTaskSearchTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="采购任务ES查询">
+		<classes>
+			<class
+				name="cn.guanmai.station.purchase.PurchaseTaskNewSearchTest" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="采购助手APP">
+		<classes>
+			<class name="cn.guanmai.station.purchase.PurchaseAssistantTest" />
+		</classes>
+	</test>
+</suite>

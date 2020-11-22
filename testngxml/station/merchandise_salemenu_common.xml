@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="销售报价单">
+	<test verbose="2" name="销售报价单">
+		<classes>
+			<class name="cn.guanmai.station.category.SalemenuTest" />
+		</classes>
+	</test> <!-- Default test -->
+	<test verbose="2" name="报价单商品搜索">
+		<classes>
+			<class name="cn.guanmai.station.category.SalemenuSkuFilterTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="报价单商品批量操作">
+		<classes>
+			<class name="cn.guanmai.station.category.SalemenuSkuImportTest" />
+		</classes>
+	</test>
+</suite>
